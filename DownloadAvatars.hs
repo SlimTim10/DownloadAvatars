@@ -4,6 +4,10 @@ module DownloadAvatars
   where
 
 import Auth
+{--
+auth :: String
+auth = "<username>:<apikey>"
+--}
 
 import System.Directory (createDirectoryIfMissing)
 import Data.List (intercalate, isSuffixOf)
